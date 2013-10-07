@@ -499,7 +499,7 @@ namespace BingMapsRESTService.Common.JSON
         public string[] LocationCodes { get; set; }
 
         [DataMember(Name = "type", EmitDefaultValue = false)]
-        public int Type { get; set; }
+        public new int Type { get; set; }
 
         [DataMember(Name = "verified", EmitDefaultValue = false)]
         public bool Verified { get; set; }

@@ -34,7 +34,6 @@ namespace APIMASH_TomTom
         public String Orientation { get; set; }
         public Int32 RefreshRate { get; set; }
 
-        private Byte[] _imageBytes;
         public Byte[] ImageBytes { get; set; }
        
         private BitmapImage _image;
